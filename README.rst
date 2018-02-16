@@ -4,7 +4,7 @@ ARM Scanning ARM Precipitation Radar Tools
 
 |Travis|
 
-.. |Travis| image:: https://travis-ci.org/EVS_ATMOS/EVS-ATMOS.svg?branch=master
+.. |Travis| image:: https://travis-ci.org/EVS_ATMOS/arm_sapr_tools.svg?branch=master
     :target: https://travis-ci.org/EVS-ATMOS/arm_radar_tools
     :alt: Travis Build Status
 
