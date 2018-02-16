@@ -1,0 +1,19 @@
+name: testenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - netcdf4
+  - pytest
+  - basemap
+  - trmm_rsl
+  - wradlib
+  - cartopy
+  - coincbc=2.9.9
+  - pip:
+     - git+https://github.com/jjhelmus/CyLP.git@py3
+     - git+https://github.com/ARM-DOE/pyart
