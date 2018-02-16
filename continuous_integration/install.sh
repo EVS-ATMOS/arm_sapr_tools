@@ -22,3 +22,4 @@ source activate testenv
 # install Py-ART
 export RSL_PATH=~/miniconda3/envs/testenv
 python setup.py build_ext --inplace
+pip install -ve .
