@@ -5,7 +5,7 @@ def configuration(parent_package='', top_path=None):
     config = Configuration('arm_sapr_tools', parent_package, top_path)
     config.add_subpackage('plot')
     config.add_subpackage('ingest')
-    config.add_subpackage('synthesise')
+    config.add_subpackage('synthesize')
     return config
 
 if __name__ == '__main__':
