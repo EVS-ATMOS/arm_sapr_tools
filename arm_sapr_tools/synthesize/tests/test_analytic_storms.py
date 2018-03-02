@@ -1,4 +1,4 @@
-from arm_sapr_tools.synthesise import gaussian_iso_storm_with_sclw
+from arm_sapr_tools.synthesize import gaussian_iso_storm_with_sclw
 
 def test_center_of_storm():
     assert gaussian_iso_storm_with_sclw(0., 0., 0., Nmax=1) == 1.0
