@@ -18,3 +18,4 @@ else:
     # import subpackages
     from . import plot
     from . import ingest
+    from . import synthesize
